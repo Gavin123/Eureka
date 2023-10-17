@@ -26,7 +26,7 @@ import Foundation
 import UIKit
 
 /// Base class for the Eureka cells
-@objc(EurekaBaseCell)
+//@objc(EurekaBaseCell)
 open class BaseCell: UITableViewCell, BaseCellType {
 
     /// Untyped row associated to this cell.

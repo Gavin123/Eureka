@@ -392,7 +392,7 @@ public struct InlineRowHideOptions: OptionSet {
 }
 
 /// View controller that shows a form.
-@objc(EurekaFormViewController)
+//@objc(EurekaFormViewController)
 open class FormViewController: UIViewController, FormViewControllerProtocol, FormDelegate {
 
     @IBOutlet public var tableView: UITableView!
